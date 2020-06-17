@@ -1,0 +1,25 @@
+<!--Siam11651-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>DotDotDot</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      var i = 0;
+      var color = new Array(4);
+      color = ["red", "green", "yellow", "white"];
+
+      function rep()
+      {
+        document.body.style.backgroundColor = color[i % 4];
+
+        i++;
+      }
+
+      setInterval(rep, 10);
+    </script>
+  </body>
