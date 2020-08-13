@@ -54,8 +54,8 @@ function draw()
 	strokeWeight(9);
 	line(width / 2, height / 2, width / 2 + (minV / 2 - 210) * Math.cos(hA + Math.PI / 2), height / 2 - (minV / 2 - 210) * Math.sin(hA + Math.PI / 2));
 	noStroke();
-	text("12", width / 2, 50);
-	text("6", width / 2, height - 50);
+	text("12", width / 2, height / 2 - minV / 2 + 50);
+	text("6", width / 2, height / 2 + minV / 2 - 50);
 	text("3", width / 2 + minV / 2 - 50, height / 2);
 	text("9", width / 2 - minV / 2 + 50, height / 2);
 	text("1", width / 2 + (minV / 2 - 50) * Math.cos(Math.PI / 3), height / 2 - (minV / 2 - 50) * Math.sin(Math.PI / 3));
